@@ -1,0 +1,13 @@
+[user]
+    name = Rojin Bijukchhe
+    email = ro_jin25@icloud.com
+[core]
+    editor = nano
+    whitespace = off
+    excludesfile = ~/.gitignore
+[advice]
+    statusuoption = false
+[color]
+    ui = true
+[push]
+    default = current
