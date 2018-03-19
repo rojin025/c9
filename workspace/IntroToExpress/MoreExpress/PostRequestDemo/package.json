@@ -1,14 +1,15 @@
 {
-  "name": "post_request",
+  "name": "post_request_demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rjin",
+  "author": "ROJIN",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.5.7"
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
   }
 }
