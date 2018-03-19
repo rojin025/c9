@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="app.css">
+
 <h1>THE Post Page!</h1>
 
 <% for(var i = 0; i < posts.length; i ++){ %>
@@ -5,3 +7,9 @@
         <%= posts[i].title %> - <strong><%= posts[i].author %></strong>
     </li>
 <% } %>
+
+<% posts.forEach(function(posts){ %>
+    <li>
+        <%= posts.title %> - <strong><%= posts.author %></strong>
+    </li>
+<% }); %>
